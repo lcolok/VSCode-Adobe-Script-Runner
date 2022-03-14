@@ -17,6 +17,7 @@
 	],
 	"activationEvents": [
 		"onCommand:adobeScriptRunner.ae",
+		"onCommand:adobeScriptRunner.aeb",
 		"onCommand:adobeScriptRunner.ai",
 		"onCommand:adobeScriptRunner.estk",
 		"onCommand:adobeScriptRunner.ic",
@@ -29,6 +30,10 @@
 			{
 				"command": "adobeScriptRunner.ae",
 				"title": "Adobe After Effects"
+			},
+			{
+				"command": "adobeScriptRunner.aeb",
+				"title": "Adobe After Effects(Beta)"
 			},
 			{
 				"command": "adobeScriptRunner.ai",
@@ -115,6 +120,12 @@
 				"key": "ctrl+r",
 				"mac": "cmd+r",
 				"when": "editorTextFocus"
+			},
+			{
+				"command": "adobeScriptRunner.aeb",
+				"key": "ctrl+shift+r",
+				"mac": "cmd+shift+r",
+				"when": "editorTextFocus"
 			}
 		]
 	},
@@ -138,5 +149,11 @@
 		"eslint": "^4.11.0",
 		"vsce": "^1.85.1",
 		"vscode": "^1.1.6"
+	},
+	"__metadata": {
+		"id": "02a1e3ce-aa11-4f22-8b50-8909d9e55678",
+		"publisherDisplayName": "renderTom",
+		"publisherId": "28129361-f17a-4f1d-a099-587855af98e6",
+		"isPreReleaseVersion": false
 	}
 }
